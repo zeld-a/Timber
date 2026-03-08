@@ -3,6 +3,17 @@
 version = 4
 
 [[package]]
+name = "Timber"
+version = "0.1.0"
+dependencies = [
+ "askama",
+ "axum",
+ "serde",
+ "tokio",
+ "tower-http",
+]
+
+[[package]]
 name = "askama"
 version = "0.15.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -195,17 +206,6 @@ dependencies = [
  "futures-task",
  "pin-project-lite",
  "slab",
-]
-
-[[package]]
-name = "gitty"
-version = "0.1.0"
-dependencies = [
- "askama",
- "axum",
- "serde",
- "tokio",
- "tower-http",
 ]
 
 [[package]]

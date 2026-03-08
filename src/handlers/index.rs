@@ -9,7 +9,7 @@ struct IndexTemplate {
 
 pub async fn index() -> Html<String> {
     let template = IndexTemplate {
-        message: "Welcome to your Git hosting platform".into(),
+        message: "Welcome to Timber!".into(),
     };
     
     Html(template.render().unwrap())
