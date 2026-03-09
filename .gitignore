@@ -1,2 +1,7 @@
 /target
 todo.md
+.env
+
+timber.db
+timber.db-shm
+timber.db-wal
