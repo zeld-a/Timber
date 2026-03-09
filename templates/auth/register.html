@@ -3,6 +3,9 @@
 {% block title %}Login{% endblock %}
 
 {% block content %}
+{% if let Some(e) = error %}
+    <p> {{ e }}</p>
+{% endif %}
 <form action="/register" method="post">
     <label for="username">Username:</label><br>
     <input type="text" id="username" name="username"><br>

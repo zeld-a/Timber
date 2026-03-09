@@ -9,6 +9,8 @@ dependencies = [
  "argon2",
  "askama",
  "axum",
+ "dotenvy",
+ "rand_core",
  "serde",
  "sqlx",
  "tokio",
